@@ -1,41 +1,46 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>My profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
   </head>
   <body>
     <div class="container">
-      <div class="card-white" id="introduction">
-        <h1>Hello, I'm Thibault 😎</h1>
-        <img class="img-circle" src="/profile/images/thibault.jpeg" width="100px" alt="Thibault Tripoli">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <a class="btn-blue" href="#">Discover Le Wagon</a>
+      <div class="header-container">
+        <img src="https://s17.postimg.cc/ypm5ye95r/image.jpg" alt="" class="header-image" />
+        <div class="header">
+          <h1 class="main-heading">Thibault Tripoli</h1>
+          <span class="tag">SEO</span>
+          <span class="tag">RUBY</span>
+          <span class="tag">PHP</span>
+          <div class="stats">
+            <span class="stat-module">
+              Website <span class="stat-number">38</span>
+            </span>
+            <span class="stat-module">
+              Projects <span class="stat-number">52</span>
+            </span>
+          </div>
+        </div> <!-- END header -->
       </div>
-      <div class="card-white">
-        <h2>Follow me</h2>
-        <ul class="list-inline">
-          <li>
-            <a href="#" target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fab fa-medium"></i>
-            </a>
-          </li>
-        </ul>
+
+      <div class="overlay-header"></div>
+
+      <div class="body">
+        <img src="https://s17.postimg.cc/xcbukrwdr/Hugh_Jackman_f.jpg" alt="Hugh Jackman" class="body-image" />
+
+        <span class="body-stats">Consultant SEO</span>
+        <span class="body-stats">Developpeur Web</span>
+        <div class="u-clearfix"></div>
+        <div class="body-info">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
     </div>
   </body>
