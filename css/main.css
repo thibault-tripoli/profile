@@ -23,6 +23,12 @@
  * Footer
  */
 /*----------- Globals -----------*/
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
 /* Disable outline */
 :focus {
   outline: none;
