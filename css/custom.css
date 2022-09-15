@@ -18,3 +18,11 @@
   display: flex;
   align-items: center;
 }
+
+.gap {
+  height: 20px;
+}
+
+.content-description {
+  text-align: justify;
+}
