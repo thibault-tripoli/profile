@@ -9,8 +9,8 @@
 
 /*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
 
-.no-js .owl-carousel, .owl-carousel.owl-loaded {
-  display: block;
+.no-js .owl-carousel, .owl-carousel.owl-loaded,
+.portfolio-area .portfolio-grid .portfolio-wrapper {
   box-shadow: 1px 1px 12px #555;
 }
 
