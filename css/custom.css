@@ -8,3 +8,13 @@
   */
 
 /*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+  display: block;
+  box-shadow: 1px 1px 12px #555;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
